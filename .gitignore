@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Python Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Temporary Screenshots & Logs (Debug files)
+screen.png
+matched.png
+ad_playing.png
+error.jpg
+get.jpg
+ad_playing.xml
+hierarchy.xml
+
+# Large binary installer (Keep GitHub repository lightweight)
+mwdl.apk
+
+# Unpacked decompiled directory
+mwdl_unpacked/
+
+# Local AI workspace settings
+.claude/
